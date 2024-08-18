@@ -58,3 +58,17 @@ Different output targets can be achieved by specifying one of the available opti
 Optimizations can be enabled all together (`-Oall`), or one by one: `-Oregex`, `-Oregexboundary`, `-Ojump`.
 
 Output binary can be inspected using `./build/objdump binary.cicero`
+
+## Paper Citation
+
+If you find this repository useful, please use the following citations:
+
+```
+@inproceedings{somaini2025cicero,
+    title = {Combining MLIR Dialects with Domain-Specific Architecture for Efficient Regular Expression Matching},
+    author = {Andrea Somaini and Filippo Carloni and Giovanni Agosta and Marco D. Santambrogio and Davide Conficconi},
+    year = 2025,
+    month = {mar},
+    booktitle={2025 IEEE/ACM International Symposium on Code Generation and Optimization (CGO)}
+ } 
+```
